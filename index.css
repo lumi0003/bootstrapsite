@@ -1,0 +1,132 @@
+    @font-face {
+        font-family: 'iconic-sm';
+        src: url('../fonts/iconic-sm.eot');
+    }
+    /* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+    /* Small devices (tablets, 768px and up) */
+    
+    img.img-thumbnail {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div.container-fluid {
+        align-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    div.foot {
+        display: block;
+        margin-left: 40%;
+        margin-right: auto;
+    }
+    
+    div.row {
+        align-content: center;
+        margin-left: 5%;
+        margin-right: 1%;
+    }
+    
+    div.jumbotron {
+        background-color: #CC865F;
+    }
+    
+    div.col-xs-6 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    table {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .social {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    body {
+        background-color: #7F543C;
+        color: #FFD9C4;
+    }
+    
+    a.nav-link {
+        color: #FFA777;
+    }
+    
+    div.bignav {
+        background-color: #7F543C;
+        color: #FFA777;
+    }
+    
+    #active {
+        background-color: #FFA777;
+    }
+    
+    div.hambnav {}
+    
+    @media (min-width: @screen-sm-min) {
+        div.bignav {
+            display: none;
+            background-color: aqua
+        }
+    }
+    /* Medium devices (desktops, 992px and up) */
+    
+    @media (min-width: @screen-md-min) {
+        div.hambnav {
+            display: none;
+            visibility: hidden;
+        }
+        .navbar-light {
+            display: none;
+            visibility: hidden;
+        }
+        .bg-faded {
+            display: none;
+            visibility: hidden;
+        }
+        li.nav-item {
+            display: none;
+            visibility: hidden;
+        }
+        a.nav-link {
+            display: none;
+            visibility: hidden;
+        }
+    }
+    /* Large devices (large desktops, 1200px and up) */
+    
+    @media (min-width: @screen-lg-min) {
+        div.hambnav {
+            display: none visibility: hidden;
+        }
+        .navbar-light {
+            display: none;
+            visibility: hidden;
+        }
+        .bg-faded {
+            display: none;
+            visibility: hidden;
+        }
+        #navbarResponsive {
+            display: none;
+            visibility: hidden;
+        }
+        #noshow {
+            display: none;
+            visibility: hidden;
+        }
+    }
+    
+    .img-circle {
+        width: 40px;
+        height: 40px;
+    }
